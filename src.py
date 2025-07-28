@@ -1,8 +1,10 @@
 import cv2
+
 print("OpenCV version:", cv2.__version__)
 
-path = "C:/Users/oxo97/Downloads/like_lenna.png"
-path2 = "C:/Users/oxo97/Downloads/pepe.png"
+
+path = "img/like_lenna.png"
+path2 = "img/pepe.png"
 
 lenna = cv2.imread(path)
 pepe = cv2.imread(path2)
